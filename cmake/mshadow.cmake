@@ -36,3 +36,7 @@ if(USE_CUDA)
 else()
   add_definitions(-DMSHADOW_USE_CUDA=0)
 endif()
+
+add_definitions(-DMSHADOW_USE_SSE=0)
+
+

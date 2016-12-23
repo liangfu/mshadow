@@ -14,7 +14,7 @@ MSHADOW_NVCCFLAGS =
 MKLROOT =
 
 ifndef USE_SSE
-	USE_SSE=1
+	USE_SSE=0
 endif
 
 ifeq ($(USE_SSE), 1)
